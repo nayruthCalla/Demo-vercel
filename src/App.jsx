@@ -1,11 +1,10 @@
-import Button from './components/Button'
-
+import Navbar from './components/Navbar ';
 
 const App = ()=> {
+
   return (
-  <main className='flex flex-col gap-2'>    
-     <h1 className='text-3xl'>Bienvenid@</h1>
-     <Button />
+  <main className='w-full flex flex-col gap-2'> 
+   <Navbar/> 
   </main>
 )
 
